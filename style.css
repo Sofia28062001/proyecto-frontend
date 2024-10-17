@@ -1,0 +1,69 @@
+#cookieConsent {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #352acd;
+    color: #fff;
+    padding: 20px;
+    z-index: 1000;
+}
+
+#cookieConsent button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.info {
+    background-color: #333;
+    padding: 50px;
+}
+
+.pelis:hover {
+    transform: scale(1.2);
+    z-index: 100;
+}
+
+#navbar {
+    background-color: rgb(203, 170, 108);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column; 
+}
+
+button {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.ajusteImagen {
+    width: 100px; 
+    height: 100px;
+}
+
+div {
+    min-height: 100px;
+}
+
+
