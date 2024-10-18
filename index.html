@@ -11,15 +11,16 @@
 
 <body>
     <header id="navbar">
-        <div>
+        <div class="botones">
             <button onclick="location.href='#logo'">LOGO</button>
             <button onclick="location.href='#biografia'">BIOGRAFÍA</button>
             <button onclick="location.href='#peliculas'">PELÍCULAS</button>
             <button onclick="location.href='#masInfo'">MÁS INFORMACIÓN</button>
         </div>
         <div id="cookieConsent">
-            Este sitio web utiliza <em>cookies</em> para mejorar la experiencia del usuario. 
+            Este sitio web utiliza <em>cookies</em> para mejorar la experiencia del usuario.
             <button id="acceptCookies">Aceptar</button>
+            <button id="notAcceptCookies">Denegar</button>
         </div>
     </header>
     <section>
@@ -27,21 +28,30 @@
             <img class="ajusteImagen" src="./images/miyazaki.jpg">
         </div>
     </section>
-    <section id="biografia" >
-        <div>BIOGRAFIA
-            <p>Hayao Miyazaki (宮崎 駿 Miyazaki Hayao?, Bunkyō, Tokio; 5 de enero de 1941) es un director de cine de animación, animador, ilustrador, empresario, mangaka y productor de anime japonés, de renombre internacional y con una carrera de cinco décadas. Junto con Isao Takahata, fundó Studio Ghibli, un estudio de películas y animación. Es comparado por muchos con Walt Disney, Steven Spielberg u Orson Welles</p>
+    <section id="biografia">
+        <div class="difuminado"> </div>
+        <div class="contenido">
+            <h2>BIOGRAFIA</h2>
+            <p>Hayao Miyazaki (宮崎 駿 Miyazaki Hayao?, Bunkyō, Tokio; 5 de enero de 1941) es un director de cine de
+                animación, animador, ilustrador, empresario, mangaka y productor de anime japonés, de renombre
+                internacional y con una carrera de cinco décadas. Junto con Isao Takahata, fundó Studio Ghibli, un
+                estudio de películas y animación. Es comparado por muchos con Walt Disney, Steven Spielberg u Orson
+                Welles</p>
         </div>
     </section>
-    <section id="peliculas" >
+    <section>
         <div>PELICULAS</div>
-        <a> <img class="pelis" src="./images/chihiro.jpg"> </a>
-        <a> <img class="pelis"src="./images/garza.jpg"> </a>
-        <a> <img class="pelis" src="./images/princicesa monoke.jpg"> </a>
-        <a> <img class="pelis" src="./images/toroto.jpg"> </a>
-        <a> <img class="pelis" src="./images/amapola.jpg"> </a>
+        <div id="peliculas">
+            <a> <img class="pelis" src="./images/chihiro.jpg"> </a>
+            <a> <img class="pelis" src="./images/garza.jpg"> </a>
+            <a> <img class="pelis" src="./images/princicesa monoke.jpg"> </a>
+            <a> <img class="pelis" src="./images/toroto.jpg"> </a>
+            <a> <img class="pelis" src="./images/amapola.jpg"> </a>
+        </div>
     </section>
-    <footer id="masInfo" >
+    <footer id="masInfo">
         <div class="info">Coopyright </div>
     </footer>
 </body>
+
 </html>
